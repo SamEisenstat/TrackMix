@@ -17,6 +17,7 @@
 		D04E9EB9167E653800F2545A /* Cocoa.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D04E9E99167E653800F2545A /* Cocoa.framework */; };
 		D04E9EC1167E653800F2545A /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = D04E9EBF167E653800F2545A /* InfoPlist.strings */; };
 		D04E9EC4167E653800F2545A /* TrackMixTests.m in Sources */ = {isa = PBXBuildFile; fileRef = D04E9EC3167E653800F2545A /* TrackMixTests.m */; };
+		D04E9ECF167E728F00F2545A /* Track.m in Sources */ = {isa = PBXBuildFile; fileRef = D04E9ECE167E728F00F2545A /* Track.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -49,6 +50,8 @@
 		D04E9EC0167E653800F2545A /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		D04E9EC2167E653800F2545A /* TrackMixTests.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = TrackMixTests.h; sourceTree = "<group>"; };
 		D04E9EC3167E653800F2545A /* TrackMixTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TrackMixTests.m; sourceTree = "<group>"; };
+		D04E9ECD167E728F00F2545A /* Track.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Track.h; sourceTree = "<group>"; };
+		D04E9ECE167E728F00F2545A /* Track.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Track.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -81,6 +84,8 @@
 				D04E9E96167E653800F2545A /* Products */,
 			);
 			sourceTree = "<group>";
+			tabWidth = 4;
+			usesTabs = 1;
 		};
 		D04E9E96167E653800F2545A /* Products */ = {
 			isa = PBXGroup;
@@ -118,6 +123,8 @@
 				D04E9EAC167E653800F2545A /* AppDelegate.m */,
 				D04E9EAE167E653800F2545A /* MainMenu.xib */,
 				D04E9EA0167E653800F2545A /* Supporting Files */,
+				D04E9ECD167E728F00F2545A /* Track.h */,
+				D04E9ECE167E728F00F2545A /* Track.m */,
 			);
 			path = TrackMix;
 			sourceTree = "<group>";
@@ -263,6 +270,7 @@
 			files = (
 				D04E9EA6167E653800F2545A /* main.m in Sources */,
 				D04E9EAD167E653800F2545A /* AppDelegate.m in Sources */,
+				D04E9ECF167E728F00F2545A /* Track.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
